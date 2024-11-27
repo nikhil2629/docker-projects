@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  python-script:
+    image: python-script-container
+    volumes:
+      - "C:/Users/iamni/Documents:/app/input-output"
